@@ -1,0 +1,29 @@
+{
+  "framework": "nextjs",
+  "crons": [
+    {
+      "path": "/api/weather-budget",
+      "schedule": "0 2 * * *"
+    },
+    {
+      "path": "/api/creative-fix",
+      "schedule": "0 3 1 1 *"
+    },
+    {
+      "path": "/api/ad-clone",
+      "schedule": "0 4 1 1 *"
+    },
+    {
+      "path": "/api/campaign-clone",
+      "schedule": "0 5 1 1 *"
+    },
+    {
+      "path": "/api/post-clone",
+      "schedule": "0 6 1 1 *"
+    },
+    {
+      "path": "/api/budget-plan",
+      "schedule": "10 2 * * *"
+    }
+  ]
+}
